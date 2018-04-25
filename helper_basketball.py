@@ -1,3 +1,43 @@
+def get_nba_data(endpoint, params, return_url=False):
+    
+    """Retrieves data from http://stats.nba.com
+    
+    For community documentation, visit 
+    https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation.
+    
+    Args:
+        endpoint: endpoint specifies data table
+        params: dictionary of parameters: e.g., {'LeagueID':'00'}
+        return_url: returns URL instead of downloading data then returning it
+    Returns:
+        out: Pandas data frame
+    """
+    
+    from pandas import DataFrame
+    from urllib.parse import urlencode
+    import json
+    import subprocess as sp
+    
+    useragent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9"
+    dataurl = "http://stats.nba.com/stats/" + endpoint + "?" + urlencode(params)
+    
+    # for debugging: just return the url
+    if return_url:
+        return(dataurl)
+    
+    wgetout = sp.Popen(['wget', '-q', '-O', '-', '--user-agent='+useragent, dataurl], stdout=sp.PIPE)
+    
+    jsonstr, _ = wgetout.communicate()
+    data = json.loads(jsonstr)
+    
+    h = data['resultSets'][0]['headers']
+    d = data['resultSets'][0]['rowSet']
+    
+    out = DataFrame(d, columns=h)
+    
+    return(out)
+
+
 def bin_shots(df, bin_edges, density=False, sigma=1):
     
     """Given data frame of shots, a 2d matrix of binned counts is computed
@@ -22,6 +62,8 @@ def bin_shots(df, bin_edges, density=False, sigma=1):
         binned /= np.sum(binned)
     
     return(binned, xedges, yedges)
+
+
 
 def draw_court(ax=None, color='black', lw=1, outer_lines=False):
     
@@ -146,42 +188,3 @@ def plot_shotchart(hist_counts, xedges, yedges, ax=None, use_log=False):
     
     return(ax)
 
-
-def get_nba_data(endpoint, params, return_url=False):
-    
-    """Retrieves data from http://stats.nba.com
-    
-    For community documentation, visit 
-    https://github.com/seemethere/nba_py/wiki/stats.nba.com-Endpoint-Documentation.
-    
-    Args:
-        endpoint: endpoint specifies data table
-        params: dictionary of parameters: e.g., {'LeagueID':'00'}
-        return_url: returns URL instead of downloading data then returning it
-    Returns:
-        out: Pandas data frame
-    """
-    
-    from pandas import DataFrame
-    from urllib.parse import urlencode
-    import json
-    import subprocess as sp
-    
-    useragent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9"
-    dataurl = "http://stats.nba.com/stats/" + endpoint + "?" + urlencode(params)
-    
-    # for debugging: just return the url
-    if return_url:
-        return(dataurl)
-    
-    wgetout = sp.Popen(['wget', '-q', '-O', '-', '--user-agent='+useragent, dataurl], stdout=sp.PIPE)
-    
-    jsonstr, _ = wgetout.communicate()
-    data = json.loads(jsonstr)
-    
-    h = data['resultSets'][0]['headers']
-    d = data['resultSets'][0]['rowSet']
-    
-    out = DataFrame(d, columns=h)
-    
-    return(out)
