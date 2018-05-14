@@ -76,3 +76,9 @@ http://deadsimplechat.com/pstat-134-234
 - Special office hours Monday and Tuesday 4-6 pm for any installation issues
 
 - Homework 3 has been extended with future date TBD
+
+- Docker installation:
+  - Mac: https://docs.docker.com/docker-for-mac/install/
+  - Windows: https://docs.docker.com/docker-for-windows/
+  
+- Jupyter notebook base image: https://hub.docker.com/r/jupyter/datascience-notebook/
