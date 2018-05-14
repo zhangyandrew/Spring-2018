@@ -82,3 +82,4 @@ http://deadsimplechat.com/pstat-134-234
   - Windows: https://docs.docker.com/docker-for-windows/
   
 - Jupyter notebook base image: https://hub.docker.com/r/jupyter/datascience-notebook/
+- Course notebook image: https://hub.docker.com/r/syoh/pstat-134-234/
