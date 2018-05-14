@@ -68,3 +68,11 @@ http://deadsimplechat.com/pstat-134-234
 - Reminder: open Fitbit App to sync your data
 
 - Restarting your Jupyter notebook server
+
+## May 14, 2018
+
+- Docker installation instruction will be available later today
+
+- Special office hours Monday and Tuesday 4-6 pm for any installation issues
+
+- Homework 3 has been extended with future date TBD
