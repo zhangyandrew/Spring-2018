@@ -101,3 +101,5 @@ http://deadsimplechat.com/pstat-134-234
 
 - Form your groups if not in one already
 
+- Health data module repository: https://github.com/evidation-health/EvidationDataScienceModule
+
