@@ -3,7 +3,23 @@
 The final project is an opportunity to use the ideas from this course for exploring interesting data science problems.
 You will work on the project in a group of four. 
 
-## Basketball
+## Logistics
+
+__Project group__: Please work in a group of four. If you cannot find a group of four, I will help in merging smaller groups to make groups of four. If have reasons for prefering a different group structure, please talk to me.
+
+__Progress report (Due May 28 at 10 pm)__: A one page outline naming your group members, proposed data set, and project outline.
+
+__Report (Due June 14 at 10 pm)__: You need to provide a Jupyter notebook report of your project. You may use multiple notebooks to separate material into parts (also, in order to avoid any large notebook issues). 
+
+__Presentation__: Your group will make a 20-minute presentation on one of these dates:
+- June 4 (lecture time): 2-3 groups
+- June 6 (lecture time): 2-3 groups
+- June 8 (discussion times): 3-4 groups = up to 2 groups x 2 sections
+- June 14 (Final exam time: 12-3 pm): up to 6 groups
+
+## Possible Project Ideas
+
+### Basketball
 
 NBA website provides many different types of data. Some project ideas are:
 
@@ -13,7 +29,7 @@ What features seem to discriminate a class label? e.g., wins vs. losses, home ga
 Can you design your useful features? Can you show that your features are useful qualitatively? quantitatively?
 You also build classification models using your new features
   
-## Portfolio Optimization
+### Portfolio Optimization
 
 Minimum variance portfolio selection problem was discussed in a naive setting to illustrate the theory. 
 Using the theory in practice, however, requires a more sophisticated approach. 
@@ -25,17 +41,17 @@ They release a package that powers [their site](http://www.zipline.io/). The pac
 Refer to some examples [here](http://www.zipline.io/beginner-tutorial.html).  
 A project idea is to tackle minimum variance portfolio investment strategy with Zipline.
 
-## Health data 
+### Health data 
 
 [NHANES dataset](https://www.cdc.gov/nchs/nhanes/nhanes_questionnaires.htm) is a vast resource of open health datasets.
-You can extend the health data module for your project.
+You can extend the health data module for your project. Many papers have been published using NHANES dataset, so web search will give you some ideas. You can extend the ideas from health module in ways you think are interesting.
 
-## Yelp 
+### Yelp 
 
 In later part of the course, we will use Yelp reviews to work with text data. 
 You can consider doing a project using text data. Python has a wealth of packages for working with text data. 
 Even with simple tools, one can do a lot with text. Here is the link to a good [online resource](https://ucsb-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=01UCSB_ALMA51279011670003776&context=L&vid=UCSB&search_scope=default_scope&tab=default_tab&lang=en_US).
 
-## Your project
+### Your project
 
-You can work on your own project. Please discuss your idea with me, so that I can help you get started and make sure the scope is reasonable.
+You can work on your a project of your choosing. Please discuss your idea with me, so that I can help you get started and make sure the scope is reasonable.
