@@ -92,3 +92,14 @@ http://deadsimplechat.com/pstat-134-234
 
 - Jupyter notebook base image: https://hub.docker.com/r/jupyter/datascience-notebook/
 - Course notebook image: https://hub.docker.com/r/syoh/pstat-134-234/
+
+## May 16, 2018
+
+- Midterm grades have been posted to GauchoSpace
+
+- Project ideas will be posted later today (discuss your ideas with me)
+
+- Form your groups if not in one already
+
+- Health data module repository: https://github.com/evidation-health/EvidationDataScienceModule
+
