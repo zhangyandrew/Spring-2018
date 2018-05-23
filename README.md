@@ -103,3 +103,10 @@ http://deadsimplechat.com/pstat-134-234
 
 - Health data module repository: https://github.com/evidation-health/EvidationDataScienceModule
 
+## May 23, 2018
+
+- Finding group members on Piazza: https://piazza.com/class/jfjxm6danlc43g?cid=5
+
+- Progress report - Due May 28 at 10 pm: one submission from each group
+
+- Presentation date sign up after May 28
