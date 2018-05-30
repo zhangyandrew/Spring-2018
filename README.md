@@ -68,3 +68,48 @@ http://deadsimplechat.com/pstat-134-234
 - Reminder: open Fitbit App to sync your data
 
 - Restarting your Jupyter notebook server
+<<<<<<< HEAD
+=======
+
+## May 14, 2018
+
+- Docker installation instruction will be available later today
+
+- Special office hours Monday and Tuesday 4-6 pm for any installation issues
+
+- Homework 3 has been extended with future date TBD
+
+- Download Docker:
+  - Windows (check requirements): https://store.docker.com/editions/community/docker-ce-desktop-windows
+  - Mac (check requirements): https://store.docker.com/editions/community/docker-ce-desktop-mac
+  - On older systems that do not meet requirements: https://docs.docker.com/toolbox/overview/
+
+- Docker Community Edition installation on newer systems (check the system requirements):
+  - Mac instructions: https://docs.docker.com/docker-for-mac/install/
+  - Windows instructions: https://docs.docker.com/docker-for-windows/install/   
+
+- Docker Toolbox installation (if the system requirements are *not* met):
+  - Mac instructions: https://docs.docker.com/toolbox/toolbox_install_mac/
+  - Windows instructions: https://docs.docker.com/toolbox/toolbox_install_windows/
+
+- Jupyter notebook base image: https://hub.docker.com/r/jupyter/datascience-notebook/
+- Course notebook image: https://hub.docker.com/r/syoh/pstat-134-234/
+
+## May 16, 2018
+
+- Midterm grades have been posted to GauchoSpace
+
+- Project ideas will be posted later today (discuss your ideas with me)
+
+- Form your groups if not in one already
+
+- Health data module repository: https://github.com/evidation-health/EvidationDataScienceModule
+
+## May 23, 2018
+
+- Finding group members on Piazza: https://piazza.com/class/jfjxm6danlc43g?cid=5
+
+- Progress report - Due May 28 at 10 pm: one submission from each group
+
+- Presentation date sign up after May 28
+>>>>>>> upstream/master
