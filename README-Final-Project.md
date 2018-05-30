@@ -9,7 +9,9 @@ __Project group__: Please work in a group of four. If you cannot find a group of
 
 __Progress report (Due May 28 at 10 pm)__: A one page outline naming your group members, proposed data set, and project outline.
 
-__Report (Due June 14 at 10 pm)__: You need to provide a Jupyter notebook report of your project. You may use multiple notebooks to separate material into parts (also, in order to avoid any large notebook issues). 
+__Report (Due June 14 at 10 pm)__: You need to provide a Jupyter notebook report of your project. You may use multiple notebooks to separate material into parts (also, in order to avoid any large notebook issues). If your project is not accepted by GauchoSpace due to space limitation (100 MB), prepare a shared zip-archive of complete set of files needed to run your project on Box: https://ucsb.account.box.com/login. Everyone at UCSB has an unlimited storage using this service. Indicate the URL location of your shared zip-archive on your Jupyter notebooks on GauchoSpace, and indicate the shared link on your notebook. Note that any file that needs to be downloaded using API keys, etc, need to be pickled into a separate file(s) and made available in the zipped-archive.
+
+__Sections Friday (June 1)__: Upcoming sections this Friday will be used to help you work on your projects. Discuss with your group to ask questions. I will post sign-up form to make better use of times.
 
 __Presentation__: Your group will make a 20-minute presentation on one of these dates:
 - June 4 (lecture time): 2-3 groups
